@@ -18,7 +18,7 @@ public:
 
             // Convert pattern to string and update its frequency in map
             patternFrequency[patternBuilder]++;
-       a }
+        }
 
         // Find the pattern with maximum frequency
         int maxFrequency = 0;
