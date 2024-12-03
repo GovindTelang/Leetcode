@@ -11,9 +11,8 @@ public:
                 // 'T' if current element matches first element, 'F' otherwise
                 if (currentRow[0] == currentRow[col]) {
                     patternBuilder += "T";
-                } else {
-                    patternBuilder += "F";
-                }
+                } else patternBuilder += "F";
+                
             }
 
             // Convert pattern to string and update its frequency in map
