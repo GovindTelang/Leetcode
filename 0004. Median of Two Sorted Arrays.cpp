@@ -6,7 +6,7 @@ public: //watch codestorywithmik video
         }
         int m = nums1.size();
         int n = nums2.size();
-        int l = 0;
+        int l =0;
         int r = m;
         while(l<=r){
             int Px = l+(r-l)/2; //yaha par mid ka kaam kr rha 
